@@ -1,5 +1,28 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family:'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 1.5rem; 
+}
+
+.mainnew {
+  background-color:#56CCF2 ;
+  height:auto;
+  width:100%;
+  margin: 0 auto;
+  }
+
+img{
+  max-width: 100%;
+}
+
+
+.maininfo {
+  padding-left:5%;
+}
+
+.imgmain {
+  width:40%;
 }
