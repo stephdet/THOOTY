@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import './Stephane.css';
 import lesdentslanches from '../lesdentslanches.jpg';
 import sagesse from '../sagesse.jpg';
 
@@ -12,8 +11,8 @@ class Stephane extends Component{
             <div className="imgmain">
                 <img src={lesdentslanches} alt="dentsblanches" />
             </div>
-        
-            <h3>Jour - Mois - Année</h3>
+        <article className="mainarticle">
+            <p className="date">Jour - Mois - Année</p>
             <h2 className="maintitle">Les dents blanches</h2>
           <p className="newmain">
         Des dents blanches commencent par un entretien quotidien.
@@ -25,7 +24,32 @@ class Stephane extends Component{
          </p>
     
         <a className="more" href="#">lire plus</a>
+        </article>
         </section>
+        <section className="maininfo">
+            <div className="imgmain">
+                <img src={sagesse} alt="dentsblanches" />
+            </div>
+        <article className="mainarticle">
+            <p className="date">Jour - Mois - Année</p>
+            <h2 className="maintitle">Les dents blanches</h2>
+          <p className="newmain">
+        Des dents blanches commencent par un entretien quotidien.
+        Des dents blanches commencent par un entretien quotidien.
+        Des dents blanches commencent par un entretien quotidien.
+        Des dents blanches commencent par un entretien quotidien.
+        Des dents blanches commencent par un entretien quotidien.
+        Des dents blanches commencent par un entretien quotidien.
+         </p>
+    
+        <a className="more" href="#">lire plus</a>
+        </article>
+        </section>
+
+
+
+
+
       </div>
     );
   }
